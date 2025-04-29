@@ -44,4 +44,4 @@ jobs:
         run: gcloud builds submit --tag us-central1-docker.pkg.dev/notely-458223/notely-ar-repo/notely:latest
 
       - name: Deploy to Google Cloud Run
-        run: gcloud run deploy notely --image us-central1-docker.pkg.dev/notely-458223/notely-ar-repo/notely:latest --region us-central-1 --allow-unauthenticated --project Hoje é um grande dia pra mim, aprendi a criar um container e deixar ele no Google Cloud Run com automatização do load balancing, do DNS, da escabilidade, através de um pipeline CI/CD. Sei que você entendeu nada mas tô feliz de compartilhar --max-instances=4
+        run: gcloud run deploy notely --image us-central1-docker.pkg.dev/notely-458223/notely-ar-repo/notely:latest --region us-central-1 --allow-unauthenticated --project 98492195191 --max-instances=4
